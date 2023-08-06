@@ -5,6 +5,15 @@
     --color-fond: #f8d9d4;
 }
 
+
+.description2 {
+    margin-top: 20px; 
+    flex-direction: column;
+    width: 70%;
+    color: #000;
+  }
+
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -13,7 +22,10 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
+
+
 
 .image {
     position: relative;

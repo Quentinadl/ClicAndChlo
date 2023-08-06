@@ -2,66 +2,88 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Clic & Chlo ~ Photographe Paris</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gallery.css">
+  <title>Clic & Chlo ~ Photographe Paris</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="logo.png" alt="Logo">
-            </div>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="Images/Logo.png" alt="Logo">
+                </div>
+            </a>
+            
             <ul class="menu">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="gallery.html">Galeries</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <accueil>
-        <div class="ImagePresentation">
-            <img src="Images/MainPicture.jpg" alt="Background Image">
+    <section class="presentation">
+        <div class="background-images">
+          <img src="Images/Image1.14.jpg" class="img1" alt="Portrait 1">
+          <img src="Images/Image1.8.jpg" class="img2" alt="Portrait 2">
+          <img src="Images/Image2.2.jpg" class="img3" alt="Paysage 1">
         </div>
-        
-        <div class="presentation">
-            <h1>Présentation</h1>
-            <div class="underline"></div>
-            <p>Texte de présentation...</p>
+        <div class="content">
+          <h1>Chloé</br>Guilbault</h1>
+          <p class="subtitle">Photographe professionnelle</br>PARIS</p>
+          <a href="#" class="contact-button">Me contacter</a>
         </div>
+      </section>
+    
+      <section class="personal-presentation">
+        <div class="portrait">
+          <img src="Images/Photodeprofil-1 +10GO.jpg" alt="Chloé Guilbault">
+        </div>
+        <div class="info">
+          <h2>LE SAVOIR-FAIRE D'UNE PHOTOGRAPHE PROFESSIONNELLE</h2>
+          <div class="line"></div>
+          <p>Si vous souhaitez bénéficier des services d'une photographe professionnelle à Paris, vous êtes au bon endroit. Permettez-moi de vous en dire plus sur mon métier afin que vous puissiez comprendre les spécificités de mon travail, bien différent de celui d'un photographe "généraliste".<br><br>
+            En tant que photographe professionnelle, mon objectif est de capturer des moments uniques et de mettre en valeur votre personnalité. Que ce soit lors de séances photos individuelles, en couple ou lors d'événements, mon approche est empreinte d'authenticité et de sensibilité. Je m'adapte facilement à vos projets et suis à l'écoute de vos besoins.</p>
+        </div>
+      </section>
 
-        <div class="description">
-            <h1>Description</h1>
-            <div class="underline"></div>
-            <p>Texte de description...</p>
+      <div class="centered-text">
+        <p>Passion, création, précision, les trois piliers de mon métier.</p>
+      </div>
+    
+      <section class="description">
+        <div class="info">
+          <h2>COMMENT SE DÉROULE UNE SÉANCE PHOTO ?</h2>
+          <div class="line"></div>
+          <p>Une séance photo se déroule toujours en plusieurs étapes. Tout d'abord, nous prenons le temps de discuter de vos attentes et de comprendre vos besoins spécifiques. Que vous souhaitiez réaliser un portrait, illustrer votre amour en couple ou immortaliser un événement particulier, il est essentiel de cerner vos souhaits afin de réaliser un travail précis et sur mesure.<br><br>
+            Ensuite, la séance photo peut avoir lieu dans un studio ou dans un lieu extérieur en fonction de vos préférences et du rendu souhaité. Je suis en mesure de travailler avec différents éclairages, naturels ou artificiels, pour créer l'ambiance parfaite.
+            Mon expertise technique me permet de mettre en valeur votre image avec soin, que ce soit par le choix des angles, la gestion de la lumière ou le post-traitement. Chaque détail compte pour obtenir des résultats exceptionnels.<br><br>
+            Faire appel à mes services, c'est bénéficier d'un accompagnement personnalisé et d'une approche professionnelle pour réaliser des projets qui vous ressemblent. Je m'engage à vous offrir des photographies de haute qualité qui mettront en lumière votre personnalité et captureront des instants précieux.</p>
         </div>
-
-        <div class="carousel">
-            <h1>Galerie</h1>
-            <div class="underline"></div>
-            <div class="slideshow">
-                <img src="Images/Image1.jpg" alt="Image 1">
-                <img src="Images/Image2.jpg" alt="Image 2">
-                <img src="Images/image3.jpg" alt="Image 3">
-            </div>
+        <div class="photo">
+          <img src="Images/Image_back.jpg" alt="Service 1">
         </div>
-    </accueil>
-
-    <footer>
-        <div class="contact">
-            <a href="#contact">Me contacter</a>
+      </section>
+  
+      <footer>
+        <div class="contact-info">
+          <a href="#" class="contact-link">Me contacter</a>
+          <div class="social-media">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+          </div>
         </div>
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <p class="footer-text">Photographe PARIS - chloe.guibault51@gmail.com</p>
+        <p class="footer-text">© 2023 créé par Koppa tous droits réservés.</p>
+      </footer>
+    <script src="script2.js"></script>
 </body>
+
+
 
 </html>
