@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/gallery.css">
+    <script src="Js/script.js"></script>
+    <script src="Js/gallery.js"></script>
+    <link rel="icon" type="Images/Logo_onglet.png" sizes="16x16" href="Images/Logo_onglet.png">
     <title>Clic & Chlo ~ Photographe Paris</title>
 </head>
 
@@ -17,39 +20,40 @@
                     <img src="Images/Logo.png" alt="Logo">
                 </div>
             </a>
-            
+
             <ul class="menu">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="gallery.html">Galeries</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="mailto:quentin.adeline18@gmail.com?subject=[KOPPA] Demande d'information !&body=-----INFORMATION CONTACT-----%0ANom : %0APrénom : %0AAdresse mail : %0ANom de l'entreprie : %0AObjet : %0A%0A -------------MESSAGE------------%0A%0A"
+                        target="_blank">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-        <div class="description2" >
-            <h1>Mes plus beaux clichés</h1>
-        
+    <div class="description2">
+        <h1>Mes plus beaux clichés</h1>
+
         <div class="line"></div>
-            <div class="underline" ></div>
-            <p style="text-align: center;">Texte de description...</p>
-        </div>
+        <div class="underline"></div>
+        <p style="text-align: center;">Texte de description...</p>
+    </div>
 
 
     <div class="gallery">
         <div class="image">
-            <img src="Images/image1.1.jpg" alt="Image 1">
+            <img src="Images/image1.1.jpg" alt="Image 1" loading="lazy">
             <div class="photodescription">Description de l'image 1</div>
         </div>
         <div class="image">
-            <img src="Images/image1.2.jpg" alt="Image 2">
+            <img src="Images/image1.2.jpg" alt="Image 2" loading="lazy">
             <div class="photodescription">Description de l'image 2</div>
         </div>
         <div class="image">
-            <img src="Images/image1.3.jpg" alt="Image 3">
+            <img src="Images/image1.3.jpg" alt="Image 3" loading="lazy">
             <div class="photodescription">Description de l'image 3</div>
         </div>
         <div class="image">
-            <img src="Images/image1.4.jpg" alt="Image 3">
+            <img src="Images/image1.4.jpg" alt="Image 3" loading="lazy">
             <div class="photodescription">Description de l'image 3</div>
         </div>
         <div class="image">
@@ -112,17 +116,18 @@
 
 
     <footer>
-        <div class="contact">
-            <a href="#contact">Me contacter</a>
+        <div class="contact-info">
+          <div class="social-media">
+            <a href="#"><img src="Images/Logo_Facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/Logo_Insta.png" alt="Instagram"></a>
+            <a href="#"><img src="Images/Logo_Mail.png" alt="Twitter"></a>
+          </div>
         </div>
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    </footer>
+        <p class="footer-text">Photographe PARIS</p>
+        <p class="footer-text">© 2023 créé par <a href="https://www.my-koppa.com/" target="_blank"
+            style="text-decoration: none;color: #6D9C86;">Koppa</a> tous droits réservés.</p>
+      </footer>
 
-    <script src="gallery.js"></script>
 </body>
 
 </html>
