@@ -1,4 +1,4 @@
-const gallery = document.querySelector('.gallery');
+const gallery = document.getElementsByClassName('gallery')
 const overlay = document.querySelector('.overlay');
 const popup = document.querySelector('.popup');
 const popupDescription = popup.querySelector('.popup-description');
@@ -25,10 +25,12 @@ function hideImage() {
 }
 
 // Ajouter les écouteurs d'événements pour les images de la galerie
-const images = gallery.querySelectorAll('.image img');
-images.forEach((image) => {
-  image.addEventListener('click', showImage);
-});
+for(let i=0; i<gallery.length; i++) {
+  const images = gallery[i].querySelectorAll('.image img');
+  images.forEach((image) => {
+    image.addEventListener('click', showImage);
+  });
+}
 
 // Ajouter un écouteur d'événement pour masquer le pop-up lors du clic sur l'overlay
 overlay.addEventListener('click', hideImage);
