@@ -346,6 +346,7 @@ footer {
   .personal-presentation {
     flex-direction: column;
     align-items: center;
+    width: 95%;
   }
 
   .portrait img {
@@ -393,6 +394,7 @@ footer {
   .description {
     flex-direction: column;
     align-items: center;
+    width: 95%;
   }
 
   .description img {
