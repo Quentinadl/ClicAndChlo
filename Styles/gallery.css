@@ -5,14 +5,12 @@
     --color-fond: #f8d9d4;
 }
 
-
 .description2 {
     margin-top: 20px; 
     flex-direction: column;
     width: 70%;
     color: #000;
   }
-
 
 .gallery {
     display: grid;
@@ -23,8 +21,6 @@
     margin-right: auto;
     margin-bottom: 40px;
 }
-
-
 
 .image {
     position: relative;
@@ -89,4 +85,14 @@
     text-align: center;
     width: 100%;
     
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .popup {
+        position: relative;
+        max-width: 90%;
+        max-height: auto;
+    }
 }
